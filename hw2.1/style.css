@@ -62,12 +62,36 @@
     width: 234.063px;
     height: 48.603px;
     border-radius: 30px;
-    background: #EB443F;;
+    background: #EB443F;
 }
-.content{
+.container{
     height: 556px;
     background-image:url(img/content_background.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 32px;
+    padding-top: 128px;
+    position: relative;
+}
+.container__item{
+    width: 378px;
+    height: 300px;
+}
+.container_game{
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    color: #FFF;
+
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 32px
 }
