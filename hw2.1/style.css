@@ -14,7 +14,7 @@
 }
 
 .top {
-  height: 1024px;
+  height: 100vh;
   background-image: url(img/top_background.svg);
   background-repeat: no-repeat;
   background-position: center;
@@ -30,7 +30,7 @@
   width: 234.063px;
 }
 .top__text {
-  width: 581px;
+  width: auto;
   color: #6e6e6e;
   font-family: Montserrat;
   font-size: 18px;
@@ -41,8 +41,8 @@
   color: #ffffff;
 }
 .top__title {
-  width: 788.778px;
-  height: 125.007px;
+  width: auto;
+  height: auto;
   color: #FFF;
   font-family: Montserrat;
   font-size: 64px;
@@ -55,7 +55,8 @@
   font-size: 18px;
   font-weight: 400;
   width: 234.063px;
-  height: 48.603px;
+  padding-bottom: 13px;
+  padding-top: 13PX;
   border-radius: 30px;
   background: #9C0332;
 }
@@ -72,7 +73,6 @@
 }
 
 .container {
-  height: 556px;
   background-image: url(img/content_background.svg);
   background-repeat: no-repeat;
   background-position: center;
@@ -84,6 +84,7 @@
   padding-top: 128px;
   position: relative;
   margin-top: -1px;
+  padding-bottom: 128px;
 }
 .container__item {
   position: relative;
